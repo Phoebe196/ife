@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+.form{margin:150px auto;border:2px solid blue;width: 50%;}
+input{ 
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.checkBox_sprit,.radioBox_sprit{
+  width: 16px;
+  height:16px;
+  border:none;
+  display: inline-block;
+  background:url('checkbox.png') left center no-repeat;
+  vertical-align: bottom;
+}
+label{margin-right:10px}
+/*label{padding-left: 5px;}*/
+.checkBox_sprit{
+  background-position:-25px -32px;
+}
+.radioBox_sprit{
+  background-position: -24px -10px;
+}
+.checkBox_sprit:checked{
+  background-position: -60px -32px;
+}
+.radioBox_sprit:checked{
+  background-position: -59px -10px;
+}
