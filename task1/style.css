@@ -30,3 +30,55 @@ label{margin-right:10px}
 .radioBox_sprit:checked{
   background-position: -59px -10px;
 }
+/*伪类实现*/
+.checkbox{
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.checkBox,.radios{
+  width:18px;
+  height: 18px;
+  border:1px solid #d9d9d9;
+  display: inline-block;
+    display: -webkit-flex;
+  display:flex;
+  float: left;
+  vertical-align: bottom;
+}
+.checkBox:checked,.radios:checked{
+   border:1px solid #d73d32;
+   font-weight: 700;
+}
+.checkBox:checked::after,.radios:checked::after{
+  margin: auto;
+  content: '\2714';
+  color: red;
+  width:10px;
+  height:10px;
+  line-height: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+input{
+  margin:0;
+  display: none;
+}
+
+/* radio */
+.radio{
+  display: inline-block;
+  width: 50px;
+
+}
+.radios{
+  border-radius: 50%;
+}
+.radios:checked::after{
+  border-radius: 50%;
+  width:8px;
+  height:8px;
+  line-height: 8px;
+  content: ' ';
+  background: #d73d32;
+}
+.css_table label{float: left;padding-left: 10px;}
