@@ -1,0 +1,46 @@
+* {margin:0;padding:0;font-family: "宋体"}
+body{background-color: #dedede}
+.clearfix{clear: both;}
+/*导航栏*/
+.nav{background-image: linear-gradient(#444,#111);color: #fff;height: 50px;line-height: 50px;}
+.logo{float: left;cursor: pointer;padding-left: 10px;padding-top: 0px;}
+.navbar{list-style-type: none;float: right;}
+.navbar li{float: left;width: 100px;}
+.navbar li a{text-decoration: none;color: #fff;height: 46px;display: inline-block;width: 100px;font-size: 12px;text-align: center;}
+.navbar li a:hover{border-bottom: 2px solid orange;background-color: #444;}
+/*第一篇文章*/
+.main{float: left;width: 70%;}
+.box{width: 90%;margin:20px auto;background-color: #fff;padding:20px;box-shadow: 1px 1px 2px 1px #848484}
+h1{padding-top: 20px;}
+h3{padding:20px 0; color: #808080;font-size: 16px;}
+.author{color: #808080;font-size: 10px;padding: 5px 0 20px 0;text-indent: 0em;line-height: 0px}
+p{text-indent: 2em;line-height: 30px;}
+.pic{margin:10px 0;}
+/*第二篇*/
+.second_ul{list-style-type: none;margin-left: 20px;margin-bottom:20px}
+.second_ul li{line-height: 30px;}
+/*图片展示区*/
+.pic_list{list-style-type: none;margin: 10px 60px;}
+.pic_list li{border: 1px solid #ccc;width: 105px;margin:10px 0;text-align: center;padding:10px;}
+.pic_list img{width: 100px;height: 80px;}
+.pic_list li span{margin-bottom: 10px;display: block;}
+/*最后一篇*/
+ol{margin-left:3em;}
+ol li{line-height: 25px;}
+#last_article p{text-indent: 0;}
+.table{width: 100%;text-align: left;border-collapse: collapse}
+.table thead{background-color: #333;color: #fff;font-weight: bold;}
+.table th, .table td{padding-left: 5px;display: table-cell;height: 25px;}
+.table td{border:1px solid #ccc;}
+.table th{border:1px solid #fff;}
+.total{background-color: #ccc;}
+/*侧边栏*/
+.sideBar{width: 25%;float: right;margin-right: 20px;}
+.sideBar h3{color: #000;border-left: 3px solid #ccc;padding:10px 0 10px 10px;}
+.sideBar_table{margin:10px auto;}
+.sideBar_table span{color:#808080;font-size: 10px;}
+.textLeft{text-align: right;}
+.sideBar_table td{height: 30px;}
+.button{background-color: #3355d0;width: 100%;border-radius: 5px;height: 30px;color: #fff;border:none;font-size: 16px;font-weight: bold;}
+/*footer*/
+footer{height: 40px;background-color: #333; color: #fff; text-align: center;line-height: 40px;font-size: 16px;font-weight: bold;}
