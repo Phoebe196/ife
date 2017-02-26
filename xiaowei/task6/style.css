@@ -49,15 +49,16 @@ body{background-color: #539e9b;font-family: "微软雅黑"}
 .bottomCover p{color: #fff;font-size: 26px;height: 44px;border-left: 2px solid #72b16a; padding-left: 10px;margin:10px 0 0 30px;}
 .bottomCover i{font-size: 12px; color: #72b16a;}
 .rightBottom{width: 458px; height: 290px;margin-top: 30px;background-color: #EDECD6;padding-top: 28px;color: #5a5b5b}
-.rightBottom p{text-align: left;line-height: 35px;font-size: 16px;font-family: "宋体";margin-left:25px;}
+.rightBottom .process{text-align: left;line-height: 35px;font-size: 16px;font-family: "宋体";margin-left:25px;}
 .rightBottom i{padding-right: 10px;color: #10446B;vertical-align: -webkit-baseline-middle;}
 .rightBottom em{font-size: 12px;}
 .Box{width: 260px; height: 160px;background-color: #D45C5B;float: left;margin-top:18px;color: #fff}
 .quote{float: left;;width: 168px;padding:15px;margin-top: 10px;font-style: italic;font-size: 14px;font-family: "黑体"}
 .rightBottom .fa-2x{color:#D45C5B; }
+.rightBottom .fa-quote-left{vertical-align: bottom;}
 .rightBottom .fa-quote-right{vertical-align: top;float: right;}
 .rightBox .helloWorld{font-size: 12px;font-family: "黑体";line-height: 12px;text-align: left;margin-top: 8px;}
-.Box .zero{font-size: 110px;font-weight: bold;float: left;height: 86px;border-right: 2px solid #fff;line-height: 86px;margin-top: 35px;width: 80px;float: left;}
+.Box .zero{font-size: 110px;float: left;height: 86px;border-right: 2px solid #fff;line-height: 86px;margin:35px 0 0 10px;width: 70px;float: left;}
 .Box em{font-size: 21px;line-height: 24px;font-family: "黑体"}
 .rightBox{width: 158px;float: right;padding:10px;margin-top: 20px}
 /*尾部*/
