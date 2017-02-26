@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+.container{background-color: #eee;width: 90%;padding:20px;margin:20px auto;min-height: 400px; border:1px solid #999;}
+.title,
+.intro,
+.logoBox{background-color: #fff;padding:10px;border:1px solid #999;}
+.title{width: 190px;margin-right: 20px;float: left;}
+.team{height: 80px;width: 80px;float: left;}
+.teamTitle{margin-left: 5px;font-weight: bold;display: inline-block;width: 100px;}
+.intro{margin-left: 240px;margin-right:160px;}
+.logoBox{float: right;width: 110px;}
+.p_logo{width: 80px;height: 80px;margin:10px auto;display: block;}
+.intro p{padding: 5px 0;}
+.text{line-height: 25px;}
