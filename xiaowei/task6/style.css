@@ -1,0 +1,64 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{background-color: #539e9b;font-family: "微软雅黑"}
+.clearfix{clear: both;}
+.newspaper{background-color: #fff;width: 892px;margin:0 auto;padding:0 44px;height: 1386px;}
+/*顶部*/
+.newsTop{height: 61px;font-size: 12px;font-family: "黑体"}
+.logo{background-color: #D45C5B;width: 105px;float: left;height: 16px;color: #fff;;padding:45px 0 0 5px;}
+.time{float: right;color: #d45d5c;padding-top: 47px;}
+.hr_top{height: 2px;background-color: #938e8c;border:none;margin:0;margin-bottom: 30px;}
+/*新闻标题部分*/
+.newsTitle{margin-bottom: 30px;height: 301px;}
+.newsPic{float: left;position: relative;left: 0;top: 0;}
+.leftCover{width: 191px;height: 301px;position: absolute;top: 0;left: 0px;background-color:rgba(161,198,172,0.5);}
+.rightCover{width: 191px;height: 301px;position: absolute;top: 0;right: 0px;background-color:rgba(230,186,192,0.5);}
+.title{float: right;border-top: 2px solid #cc8091;width: 203px;padding-top: 10px;}
+.mainTitle{font-size: 18px;line-height: 30px;border-bottom: 2px solid #000;margin-right: 20px;}
+.mainTitle strong{font-size: 24px;font-weight: normal;}
+.subTitle{color: #676767;font-size: 12px;font-family: "楷体";line-height: 10px;font-style: italic;}
+.bigNumber{margin-bottom:-10px;font-size: 116px;color: #75b86b;font-style: italic;margin-left: -20px;}
+.subNumber{font-size: 55px;color: #cc8091;float: left;}
+.numRight{display: inline-block;font-size: 21px;color: #cc8091;line-height: 10px;height: 30px;margin:35px 0 0 10px;}
+.numRight i{font-size: 12px;color: #ccc;font-style: normal;}
+/*分块内容*/
+.blocks{width: 641px; color: #231815;font-size: 12px;height: 200px;margin-bottom: 50px;}
+.blocks h3{font-size: 16px;text-decoration: underline;line-height: 30px}
+.f_block{width: 230px;float: left;}
+.s_block{margin:0 23px;width: 205px;float: left;}
+.t_block{width: 160px;float: right}
+.f_block h3{color: #418B58}
+.s_block h3{color: #d2994f}
+.t_block h3{color: #cc7680}
+.t_block p{line-height: 20px;margin-bottom: 23px;}
+.what{display: block;margin-bottom:5px;}
+.what i{color: #cd4a48;opacity: 0.7;}
+/*正文区*/
+.mainBody{height: 605px;}
+.leftContent{width: 419px;float: left;}
+.rightContent{width: 458px;float: right}
+.conTitle{font-family: "黑体";border-bottom: 2px solid #11456b;margin-bottom:20px;}
+.conTitle span{color: #f5e327;font-size: 72px;font-style: italic;font-weight: bold;}
+.conTitle h1{font-size: 42px;color: #11456b;line-height: 50px;}
+.conTitle h2{font-size: 33px;color: #11456b;line-height: 50px;}
+.content img{float: right;margin:10px 0 0px 10px;}
+.content p{text-indent: 2em;font-size: 12px;color: #767777;font-family: "宋体";line-height: 20px;}
+.content span{font-size: 70px; color: #f5e327;float: left;padding:25px 2px 24px 0;font-weight: bold;}
+.content p:first-child{text-indent: 0em;}
+.skillImg{position: relative;height: 257px;}
+.bottomCover{position: absolute;bottom:0px;left: 0px;height: 61px;width: 458px;background-color: rgba(0,0,0,0.5)}
+.bottomCover p{color: #fff;font-size: 26px;height: 44px;border-left: 2px solid #72b16a; padding-left: 10px;margin:10px 0 0 30px;}
+.bottomCover i{font-size: 12px; color: #72b16a;}
+.rightBottom{width: 458px; height: 290px;margin-top: 30px;background-color: #EDECD6;padding-top: 28px;color: #5a5b5b}
+.rightBottom p{text-align: left;line-height: 35px;font-size: 16px;font-family: "宋体";margin-left:25px;}
+.rightBottom i{padding-right: 10px;color: #10446B;vertical-align: -webkit-baseline-middle;}
+.rightBottom em{font-size: 12px;}
+.Box{width: 260px; height: 160px;background-color: #D45C5B;float: left;margin-top:18px;color: #fff}
+.quote{float: left;;width: 168px;padding:15px;margin-top: 10px;font-style: italic;font-size: 14px;font-family: "黑体"}
+.rightBottom .fa-2x{color:#D45C5B; }
+.rightBottom .fa-quote-right{vertical-align: top;float: right;}
+.rightBox .helloWorld{font-size: 12px;font-family: "黑体";line-height: 12px;text-align: left;margin-top: 8px;}
+.Box .zero{font-size: 110px;font-weight: bold;float: left;height: 86px;border-right: 2px solid #fff;line-height: 86px;margin-top: 35px;width: 80px;float: left;}
+.Box em{font-size: 21px;line-height: 24px;font-family: "黑体"}
+.rightBox{width: 158px;float: right;padding:10px;margin-top: 20px}
+/*尾部*/
+.footer{border-top: 1px solid #938e8c;margin-top: 40px;text-align: right;;font-size: 12px;color: #d45d5c;font-family: "黑体";padding-top: 5px;}
