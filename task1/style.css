@@ -7,6 +7,7 @@ input{
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none;
+  outline: none
 }
 .checkBox_sprit,.radioBox_sprit{
   width: 16px;
