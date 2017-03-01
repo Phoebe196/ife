@@ -9,6 +9,7 @@ input{
   appearance: none;
   outline: none
 }
+.radio_sprit,.check_sprit{display: none}
 .checkBox_sprit,.radioBox_sprit{
   width: 16px;
   height:16px;
@@ -25,10 +26,10 @@ label{margin-right:10px}
 .radioBox_sprit{
   background-position: -24px -10px;
 }
-.checkBox_sprit:checked{
+.check_sprit:checked+ .checkBox_sprit{
   background-position: -60px -32px;
 }
-.radioBox_sprit:checked{
+.radio_sprit:checked + .radioBox_sprit{
   background-position: -59px -10px;
 }
 /*伪类实现*/
@@ -36,6 +37,9 @@ label{margin-right:10px}
   margin-bottom: 30px;
   font-weight: 700;
 }
+.i_radios{display: none;}
+.check{display: none;}
+
 .checkBox,.radios{
   width:18px;
   height: 18px;
@@ -46,11 +50,11 @@ label{margin-right:10px}
   float: left;
   vertical-align: bottom;
 }
-.checkBox:checked,.radios:checked{
+.check:checked+ .checkBox,.i_radios:checked+ .radios{
    border:1px solid #d73d32;
    font-weight: 700;
 }
-.checkBox:checked::after,.radios:checked::after{
+.check:checked+ .checkBox::after,.i_radios:checked+ .radios::after{
   margin: auto;
   content: '\2714';
   color: red;
@@ -74,7 +78,7 @@ input{
 .radios{
   border-radius: 50%;
 }
-.radios:checked::after{
+.i_radios:checked+ .radios::after{
   border-radius: 50%;
   width:8px;
   height:8px;
@@ -82,4 +86,4 @@ input{
   content: ' ';
   background: #d73d32;
 }
-.css_table label{float: left;padding-left: 10px;}
+.css_table .text{float: left;}
