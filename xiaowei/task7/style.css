@@ -28,7 +28,7 @@ textarea{outline: none;}
 /*主图片区*/
 .start{background: url(img/background.jpg) no-repeat;height: 690px;width: 100%;background-size: cover;color: #fff;}
 .start h1{font-size: 60px;}
-.start .title {padding:224px 0 0 114px;}
+.start .title {padding:224px 0 0 114px;color: #fff}
 .start .saying{font-size: 21px;line-height: 30px;padding-top: 20px;}
 .start_button{-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;width: 331px;height: 65px;line-height: 65px;background-color: #E74F4D;text-align: center;font-size: 30px;color: #fff;display: block;margin-top: 60px;}
 .start_button:hover{background-color: #fff;color: #E74F4D;border-radius: 2px;}
@@ -118,12 +118,12 @@ webkit-transition: all 0.4s ease-in-out;
 .section8 p{color: #AAAAA9;font-size: 12px;}
 .form{overflow: auto;width: 80%;margin:80px auto;}
 .leftFrom {float: left;width: 40%;height: 400px;text-align: left;}
-.title h4{font-size: 16px;color: #221814;font-family: "黑体";font-weight: normal;margin-bottom:23px;}
-.title p{color: #B3AFAC;font-size: 14px;padding-right: 80px;font-family: "宋体";line-height: 20px;}
+.tableTitle h4{font-size: 16px;color: #221814;font-family: "黑体";font-weight: normal;margin-bottom:23px;}
+.tableTitle p{color: #B3AFAC;font-size: 14px;padding-right: 80px;font-family: "宋体";line-height: 20px;}
 .showMore{color:#B3AFAC;font-size:14px;font-family: "宋体" ;float: right;padding-right: 90px;background:url(img/down.png) left 7px no-repeat; padding-left: 15px;}
 .showMore:hover{text-decoration: underline;}
-.title{overflow: auto;margin-bottom: 55px;}
-.title:last-child{margin-bottom: 0px;}
+.tableTitle{overflow: auto;margin-bottom: 55px;}
+.tableTitle:last-child{margin-bottom: 0px;}
 .rightFrom{overflow: hidden;width:59%;height: 400px;float: left;padding-right: 2px}
 .rightFrom input:focus,
 .rightFrom textarea:focus{background-color: #fff;border:1px solid #EDEDEF;}
