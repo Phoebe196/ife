@@ -135,7 +135,7 @@ webkit-transition: all 0.4s ease-in-out;
 .rightFrom textarea:focus{background-color: #fff;border:1px solid #EDEDEF;}
 .f_input{width: 47%;height: 40px;background-color: #EDEDEF;padding-left: 10px;border:1px solid #fff;margin-bottom: 20px;float: left;}
 .s_input{width: 47%;height: 40px;background-color: #EDEDEF;padding-left: 10px;border:1px solid #fff;float: right;margin-bottom: 20px;}
-.rightFrom textarea{resize:none;border:none;background-color:#EDEDEF;width: 97%;height: 170px;padding:10px; border:1px solid #fff;}
+.rightFrom textarea{resize:none;border:none;background-color:#EDEDEF;width: 96%;height: 170px;padding:10px; border:1px solid #fff;}
 /*联系我们*/
 .contact{height: 360px;background-color: #32353E;color: #fff;text-align: center;}
 .contact h2{font-size: 21px;font-weight: normal;font-family: "黑体";padding-top: 90px;}
