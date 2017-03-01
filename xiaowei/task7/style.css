@@ -5,6 +5,10 @@ a{text-decoration: none}
 body{font-family: "微软雅黑"}
 input,
 textarea{outline: none;}
+input{-webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;}
 /*导航栏*/
 .nav{height: 55px;width: 100%;}
 .logo{margin-left: 60px;height: 55px;line-height: 55px;font-size: 21px;color: #393939;width: 105px;float: left;}
@@ -86,8 +90,10 @@ webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;}
 .rightIntro .more:hover{border-radius: 2px;background-color: #BE4F48;color: #fff;}
 .lists {margin-top:40px;}
-.rightIntro input{outline: none;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url(img/radio.png) no-repeat;width: 15px;height: 15px;cursor: pointer;}
-.rightIntro input:checked{background: url(img/checked.png) no-repeat;}
+.rightIntro input{display: none;}
+.rightIntro label{display: inline-block;outline: none;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url(img/radio.png) no-repeat;width: 15px;height: 15px;cursor: pointer;}
+
+.rightIntro input:checked + label{background: url(img/checked.png) no-repeat;}
 .expdiv{width: 300%;overflow: auto;margin-left: 0%;transition: right 0.3s ease-in-out;-webkit-transition: right 0.3s ease-in-out}
 .expBlock{width: 33.3%;float: left;}
 .rightIntro input[type="radio"]:checked~.expdiv{
@@ -129,7 +135,7 @@ webkit-transition: all 0.4s ease-in-out;
 .rightFrom textarea:focus{background-color: #fff;border:1px solid #EDEDEF;}
 .f_input{width: 47%;height: 40px;background-color: #EDEDEF;padding-left: 10px;border:1px solid #fff;margin-bottom: 20px;float: left;}
 .s_input{width: 47%;height: 40px;background-color: #EDEDEF;padding-left: 10px;border:1px solid #fff;float: right;margin-bottom: 20px;}
-.rightFrom textarea{border:none;background-color:#EDEDEF;width: 97%;height: 170px;padding:10px; border:1px solid #fff;}
+.rightFrom textarea{resize:none;border:none;background-color:#EDEDEF;width: 97%;height: 170px;padding:10px; border:1px solid #fff;}
 /*联系我们*/
 .contact{height: 360px;background-color: #32353E;color: #fff;text-align: center;}
 .contact h2{font-size: 21px;font-weight: normal;font-family: "黑体";padding-top: 90px;}
