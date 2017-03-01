@@ -38,6 +38,6 @@ ol li{line-height: 25px;}
 .sideBar_table span{color:#808080;font-size: 10px;}
 .textLeft{text-align: right;}
 .sideBar_table td{height: 30px;}
-.button{background-color: #3355d0;width: 100%;border-radius: 5px;height: 30px;color: #fff;border:none;font-size: 16px;font-weight: bold;}
+.button{cursor:pointer;background-color: #3355d0;width: 100%;border-radius: 5px;height: 30px;color: #fff;border:none;font-size: 16px;font-weight: bold;}
 /*footer*/
 footer{height: 40px;background-color: #333; color: #fff; text-align: center;line-height: 40px;font-size: 16px;font-weight: bold;}
