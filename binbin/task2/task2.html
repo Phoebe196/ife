@@ -39,7 +39,7 @@ for(i=0;i<aqiData.length;i++){
   if(aqiData[i][1]>60){
      var list = document.getElementById('aqi-list');
      var oLi = document.createElement('li');
-     oLi.innerHTML="<li>第"+arr[i]+"名："+aqiData[i][0]+", "+aqiData[i][1]+"</li>";
+     oLi.innerHTML="第"+arr[i]+"名："+aqiData[i][0]+", "+aqiData[i][1];
      list.append(oLi);
   }
 }
