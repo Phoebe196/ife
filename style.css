@@ -1,0 +1,35 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #f5f5f5;}
+img{border:none;}
+li{
+	list-style: none;
+}
+input,select,textarea{outline:none;border: none;background:none;}/*background:none 针对IE6而言*/
+textarea{resize:none;}
+a{text-decoration:none;}
+
+.navBar{height: 60px;background-color: #fff;}
+.navBar li{height: 60px;}
+.logo {float: left;}
+.logo img{height: 50px;margin-top: 5px;}
+.headPic{float: right;width: 200px;margin-top: 10px;cursor: pointer;}
+.headPic img{width: 40px;height: 40px;border-radius: 50%;}
+.headPic span{vertical-align:top;display: inline-block;line-height: 40px;margin-right: 5px;font-size: 12px;}
+.navBar .nav{float: right;width: 100px;text-align: center;height: 58px;border-bottom: 2px solid #fff}
+.nav a{color: #000;height: 60px;line-height: 60px;}
+.navBar .navList{padding-right: 50px;overflow: auto;width: 200px;float: right;}
+.navBar .current{background-color: #eee;border-bottom: 2px solid #e73c11;}
+.nav a:hover{color:  #e73c11}
+
+.intro{background:url(img/section_1_00ad57e0.jpg) no-repeat;background-size: cover;height: 400px;margin-bottom: 20px;}
+
+.sites{width: 85%;margin:0px auto;overflow: auto;background-color: #fff;}
+.sites h1{height: 40px;line-height: 40px;background-color: #fff;border-left: 3px solid #5262D8;
+box-shadow: 0 1px 4px 1px rgba(0,0,0,.08);padding-left: 10px;}
+
+
+
+
+
+
+
