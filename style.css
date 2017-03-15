@@ -1,5 +1,5 @@
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
-body{font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #f5f5f5;}
+body{min-width: 1280px;font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #f5f5f5;}
 img{border:none;}
 li{
 	list-style: none;
@@ -7,11 +7,11 @@ li{
 input,select,textarea{outline:none;border: none;background:none;}/*background:none 针对IE6而言*/
 textarea{resize:none;}
 a{text-decoration:none;}
-
+/*导航栏*/
 .navBar{height: 60px;background-color: #fff;}
 .navBar li{height: 60px;}
 .logo {float: left;}
-.logo img{height: 50px;margin-top: 5px;}
+.logo img{height: 50px;margin-top: 5px;cursor: pointer;}
 .headPic{float: right;width: 200px;margin-top: 10px;cursor: pointer;}
 .headPic img{width: 40px;height: 40px;border-radius: 50%;}
 .headPic span{vertical-align:top;display: inline-block;line-height: 40px;margin-right: 5px;font-size: 12px;}
@@ -20,16 +20,23 @@ a{text-decoration:none;}
 .navBar .navList{padding-right: 50px;overflow: auto;width: 200px;float: right;}
 .navBar .current{background-color: #eee;border-bottom: 2px solid #e73c11;}
 .nav a:hover{color:  #e73c11}
-
-.intro{background:url(img/section_1_00ad57e0.jpg) no-repeat;background-size: cover;height: 400px;margin-bottom: 20px;}
-
-.sites{width: 85%;margin:0px auto;overflow: auto;background-color: #fff;}
-.sites h1{height: 40px;line-height: 40px;background-color: #fff;border-left: 3px solid #5262D8;
-box-shadow: 0 1px 4px 1px rgba(0,0,0,.08);padding-left: 10px;}
-
-
-
-
-
+/*介绍区*/
+.intro{text-align: center;color: #fff;background:url(img/section_1_00ad57e0.jpg) no-repeat;background-size: cover;height: 400px;margin-bottom: 30px;}
+.intro h1{padding-top: 120px;font-size: 40px;font-weight: normal;margin-bottom: 50px;}
+.intro h2{font-size: 24px;font-weight: normal;}
+.intro a{display: block;width: 100px;height: 40px;margin:50px auto;color: #fff;border:1px solid #fff;line-height: 40px;border-radius: 10px;transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;font-size: 16px;}
+.intro a:hover{background-color: rgba(255,255,255,0.2);}
+/*作业列表*/
+.sites{width: 85%;margin:0px auto;overflow: auto;background-color: #fff;margin-bottom: 30px;}
+.sites h1{height: 40px;line-height: 40px;background-color: #fff;border-left: 3px solid #5262D8;padding-left: 10px;border-bottom: 1px solid #5262D8;
+font-size: 24px;font-family: "宋体";cursor:pointer;}
+.homeWork{overflow: auto;}
+.homeWork li{float: left;width: 33.3%;height: 35px;text-align: center;}
+.homeWork li a{display: inline-block;width: 100%;height: 100%;color: #111;line-height:35px; transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in}
+.homeWork li a:hover{background-color: #5262D8;color: #fff;}
+/*footer*/
+footer{height: 50px;background-color: rgba(0,0,0,0.5);color: #fff;line-height: 50px;text-align: center;}
 
 
