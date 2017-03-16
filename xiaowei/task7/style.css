@@ -54,7 +54,7 @@ input{-webkit-appearance: none;
 .section4 p{font-size: 12px;}
 .inquiry ul li{float: left;width: 245px;margin-right: 20px;}
 .inquiry ul li:last-child{margin-right: 0px;}
-.inquiry ul li .select{position:relative;appearance:none;-moz-appearance:none;-webkit-appearance:none;width: 226px;height: 36px;background-color: #fff;padding-left:10px;border:none;color: #A8A9AA;background: url(img/sortDown.png) 200px center no-repeat #fff;text-align: left;line-height: 36px;}
+.inquiry ul li .select{cursor: pointer;position:relative;appearance:none;-moz-appearance:none;-webkit-appearance:none;width: 226px;height: 36px;background-color: #fff;padding-left:10px;border:none;color: #A8A9AA;background: url(img/sortDown.png) 200px center no-repeat #fff;text-align: left;line-height: 36px;}
 .inquiry ul li .select i{font-style: normal;}
 .inquiry ul li .selected{border:2px solid #BE4E48; border-bottom: 0px}
 .searchBox{width: 1040px;height: 36px;margin:80px auto;}
