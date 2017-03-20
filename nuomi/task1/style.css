@@ -1,0 +1,28 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input { margin: 0; padding: 0; }
+body { height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center; display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center; }
+*, ::after, ::before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.container { width: 52%; position: relative; max-width: 800px; min-width: 450px }
+.container img { width: 100%; }
+.cover { position: absolute; padding: 30px; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; height: 100%; opacity: 0; z-index: 1; transition: opacity 0.5s ease-in; }
+.title { width: 100%; height: 100%; text-align: center; position: relative; overflow: hidden; display: flex; justify-content: center; align-items: center; flex-direction: column; display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center; transition: opacity .5s; box-shadow: 0 0 30px 20px rgba(0, 0, 0, .46); }
+.container:hover img { filter: blur(2px); -webkit-filter: blur(2px); transition: filter 1s; }
+.container:hover .cover { opacity: 1 }
+.container .cover .title::before { content: ''; border: 3px solid #fffffb; border-width: 0 3px; width: 100%; visibility: hidden; transition: all .5s; position: absolute; height: 0; left: 0; top: 50%; }
+.container .cover .title::after { content: ''; border: 3px solid #fffffb; border-width: 3px 0; height: 100%; visibility: hidden; transition: all .5s; position: absolute; width: 0; left: 50%; top: 0; }
+.container:hover .title::before { height: 100%; visibility: visible; top: 0; }
+.container:hover .title::after { width: 100%; visibility: visible; left: 0; }
+.title h1 {background-image: -webkit-linear-gradient(left, #3498db, #f47920 10%, #d71345 20%, #f7acbc 30%, #ffd400 40%, #3498db 50%, #f47920 60%, #d71345 70%, #f7acbc 80%, #ffd400 90%, #3498db); -webkit-background-clip: text; color: transparent; animation: streamer 5s infinite linear; background-size: 200%; position: absolute;top: 50%;transition: all 0.5s ease-in-out}
+.title a { animation: breathe 5s infinite linear; color: #3498db; margin-top: 20px;z-index: 1;position: absolute;top: 65%;transition: all 0.5s ease-in-out}
+.container:hover .title h1{top: 38%;}
+.container:hover .title a{top: 53%;}
+@keyframes streamer {
+	0% { background-position: 0 0 }
+	100% { background-position: -100% 0 }
+}
+@keyframes breathe {
+	0% { color: #3498db }
+	25% { color: #d71345 }
+	50% { color: #f7acbc }
+	75% { color: #d71345 }
+	0% { color: #3498db }
+}
