@@ -51,7 +51,7 @@ width: 100%;display: -webkit-flex; -webkit-justify-content: center; -webkit-alig
 					0% { color: #111 }
 				}
 
-				@media (max-width: 1024px){
+				@media (max-width: 768px){
 					body{font-size: 1.5rem}
 					.github a{font-size: 1.5rem}
 					.first{width: 70%;height: 330px}
