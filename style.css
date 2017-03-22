@@ -2,7 +2,7 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
 body{font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #111;}
 img{border:none;}
 li{
-	list-style: none;
+	list-style: none;overflow:hidden;
 }
 input,select,textarea{outline:none;border: none;background:none;}/*background:none 针对IE6而言*/
 textarea{resize:none;}
