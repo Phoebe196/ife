@@ -1,7 +1,5 @@
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
-body{font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #111;display: flex; justify-content: center; align-items: center; 
-height: 100vh;
-    width: 100%;display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center;}
+body{font: 14px/1em "Helvetica Neue", "Microsoft Yahei", sans-serif;background-color: #111;}
 img{border:none;}
 li{
 	list-style: none;
@@ -10,41 +8,58 @@ input,select,textarea{outline:none;border: none;background:none;}/*background:no
 textarea{resize:none;}
 a{text-decoration:none;}
 /*第一页*/
-.container{width: 100%;overflow: hidden;position: relative;height: 500px}
+.container{width: 100%;overflow: hidden;position: relative;}
 .sections{width: 500%;overflow: auto;}
-.section{width: 20%;float: left;height: 500px;}
-.github a{position: absolute;top: 20px;left: 10px;height: 25px;line-height: 25px;color: #fff;padding:0 5px;}
-.github a:hover{background-color: #fff;color: #000;border-radius: 5px;}
+.section{width: 20%;float: left;}
+.main{width: 100%;clear: both; display: flex; justify-content: center; align-items: center; 
+height: 95vh;
+width: 100%;display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center; }
+.github a{position: absolute;top: 20px;left: 10px;height: 25px;line-height: 25px;border-radius: 5px;color: #fff;padding:0 5px;
+	transition: all .4s ease-in;-webkit-transition: all .4s ease-in;z-index: 1}
+.github a:hover{background-color: #fff;color: #000;}
 .center{background-color: #fff;width: 40%;text-align: center;border-radius: 10px;height: 250px;cursor:default; margin:0 auto;/*position: absolute;left: 50%;
-top:100px;margin-left: -20%*/margin-top: 50px;}
-.lists{height: auto;width: 30%;margin-top: 0;}
-.lists .title{height: 50px;line-height: 50px;font-size: 24px;font-weight: bold;border-bottom: 3px solid #000;}
-.center li a{display: block;height: 40px;line-height: 40px;color: #000;}
-.center li a:hover{background-color: #000;color: #fff;transition: all .2s ease-in;}
-.first{margin-top: 250px;box-shadow: 0px 5px 3px #888}
-.binbin{margin-top: 100px;}
-.center li:last-child a:hover{border-radius:0 0 5px 5px;}
-.center h1{line-height: 30px;padding-top: 50px;background-image: -webkit-linear-gradient(left, #ccc, #4c4c4c 10%, #3b3b3b 20%, #282727 30%, #131313 40%, #000 50%, #131313 60%, #282727 70%, #3b3b3b 80%, #4c4c4c 90%, #ccc);
- -webkit-background-clip: text; color: transparent; animation: streamer 5s infinite linear;background-size: 200%;transition: all 0.5s ease-in-out }
-.center h3{line-height: 30px;margin-top: 30px;font-size: 20px;animation: breathe 5s infinite linear; color: #111;}
-.center h4{line-height: 30px;margin-top: 20px;font-size: 16px;}
-footer{color: #fff;position: absolute;bottom: 10px;width: 100%;text-align: center;cursor: default;}
-.next{height: 100%;position: absolute;width: 50px;color: #fff;display: flex; justify-content: center; align-items: center;right: 0;top: 0;cursor: pointer;
-display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center;}
+	top:100px;margin-left: -20%*/margin-top: 50px;}
+	.lists{height: auto;width: 30%;margin-top: 0;}
+	.lists .title{height: 50px;line-height: 50px;font-size: 24px;font-weight: bold;border-bottom: 3px solid #000;}
+	.center li a{display: block;height: 40px;line-height: 40px;color: #000;}
+	.center li a:hover{background-color: #000;color: #fff;transition: all .2s ease-in;}
+	.first{margin-top: 250px;box-shadow: 0px 5px 3px #888}
+	.binbin{margin-top: 100px;}
+	.center li:last-child a:hover{border-radius:0 0 5px 5px;}
+	.center h1{line-height: 30px;padding-top: 50px;background-image: -webkit-linear-gradient(left, #ccc, #4c4c4c 10%, #3b3b3b 20%, #282727 30%, #131313 40%, #000 50%, #131313 60%, #282727 70%, #3b3b3b 80%, #4c4c4c 90%, #ccc);
+		-webkit-background-clip: text; color: transparent; animation: streamer 5s infinite linear;background-size: 200%;transition: all 0.5s ease-in-out }
+		.center h3{line-height: 30px;margin-top: 30px;font-size: 20px;animation: breathe 5s infinite linear; color: #111;}
+		.center h4{line-height: 30px;margin-top: 20px;font-size: 16px;}
+		footer{color: #fff;width: 100%;height: 5vh;text-align: center;cursor: default;line-height: 5vh;}
+		.next{height: 100%;position: absolute;width: 50px;color: #fff;display: flex; justify-content: center; align-items: center;right: 0;top: 0;cursor: pointer;
+			display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center;}
 .next:hover,
-.last:hover{background-color: rgba(255,255,255,0.1)}
-.last{height: 100%;position: absolute;width: 50px;color: #fff;display: flex; justify-content: center; align-items: center;left: 0;top: 0;cursor: pointer;
-display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center; }
+			.last:hover{background-color: rgba(255,255,255,0.1)}
+			.last{height: 100%;position: absolute;width: 50px;color: #fff;display: flex; justify-content: center; align-items: center;left: 0;top: 0;cursor: pointer;
+				display: -webkit-flex; -webkit-justify-content: center; -webkit-align-items: center; }
 
-@keyframes streamer {
-	0% { background-position: 0 0 }
-	100% { background-position: -100% 0 }
-}
-@keyframes breathe {
-	0% { color: #111 }
-	25% { color: #807679 }
-	50% { color: #606DCF }
-	75% { color: #807679 }
-	0% { color: #111 }
-}
+
+				@keyframes streamer {
+					0% { background-position: 0 0 }
+					100% { background-position: -100% 0 }
+				}
+				@keyframes breathe {
+					0% { color: #111 }
+					25% { color: #807679 }
+					50% { color: #606DCF }
+					75% { color: #807679 }
+					0% { color: #111 }
+				}
+
+				@media (max-width: 1024px){
+					body{font-size: 1.5rem}
+					.github a{font-size: 1.5rem}
+					.first{width: 70%;height: 330px}
+					.first h1{font-size: 3.5rem;height: 65px;line-height: 50px}
+					.first h3{font-size: 2rem}
+					.first h4{font-size: 1.7rem;margin-top: 50px;}
+					.lists{width: 70%}
+					.lists li{height: 3rem;line-height: 3rem}
+				
+				}
 
